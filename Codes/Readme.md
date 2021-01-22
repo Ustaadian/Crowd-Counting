@@ -18,7 +18,7 @@ resnet50_train.py- Is the code for training and fine tuning the ResNet50 model.
 python3 resnet50_train.py
 ```
 
-##### After training the models we have two models saved, one for CNN and ResNet50 (models provided in zip file on BB)
+##### After training the models we have two models saved, one for CNN and ResNet50:
 
 cnn_test and resnet50_test: code for getting the prediction values and prints the image with true labels.
 
