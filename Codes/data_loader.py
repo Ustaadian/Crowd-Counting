@@ -22,7 +22,7 @@ if "labels.csv" not in os.listdir():
 DATA_DIR=os.getcwd() +"/frames/"
 RESIZE_TO=50
 x, y = [], []
-data=pd.read_csv("labels.csv")
+data=pd.read_csv("labels.csv") #file is missing, the code can't work further. 
 label=data['id']
 count=data['count']
 for path in [f for f in os.listdir(DATA_DIR) if f[-4:] == ".jpg"]:
